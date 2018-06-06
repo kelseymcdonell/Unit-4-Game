@@ -18,8 +18,8 @@ var losses = 0;
 $(document).ready(function(){
     $("#randomNum").text(targetNumber);
     $("#myNumber").text(crystalCounter);
-    $("#wins").text("Wins: " + wins);
-    $("#losses").text("Losses: " + losses);
+    $("#wins").text(wins);
+    $("#losses").text( losses);
 });
 
 function resetGame(){
@@ -32,8 +32,8 @@ function resetGame(){
     $(document).ready(function(){
         $("#randomNum").text(targetNumber);
         $("#myNumber").text(crystalCounter);
-        $("#wins").text("Wins: " + wins);
-        $("#losses").text("Losses: " + losses);
+        $("#wins").text(wins);
+        $("#losses").text(losses);
     });
 
 };

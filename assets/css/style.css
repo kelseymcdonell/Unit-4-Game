@@ -1,3 +1,54 @@
 img{
     height: 200px;
+
+}
+h1{
+    font-family: 'Amatic SC', cursive;
+    color: #747474;
+    font-size: 95px;
+}
+body{
+    background-color: #747474;
+}
+.numb{
+    color: 
+}
+
+.container{
+    background-color: #272727;
+    padding: 20px;
+}
+
+#randomNum{
+    font-size: 150px;
+    color: #14A76C;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+}
+#myNumber{
+    font-size: 150px;
+    color: #FFE400;
+    font-family: 'Cabin Sketch', cursive;
+    text-align: center;
+}
+
+i{
+    color: #FF652F;
+   font-size: 70px;
+   text-align: end;
+   margin-left: 90px;
+}
+
+#wins, #losses{
+    color: #FF652F;
+    font-size: 70px;
+    text-align: initial; 
+    font-family: 'Cabin Sketch', cursive;
+}
+#rotate{
+    -webkit-transform: rotateY(180deg);
+}
+
+small{
+    font-size: 35px;
 }
